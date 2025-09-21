@@ -1,0 +1,68 @@
+body {
+  font-family: "Inter", sans-serif;
+  background-color: #f4f6f8;
+}
+
+.card {
+  border-radius: 12px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.05);
+}
+
+.info-label {
+  font-size: 12px;
+  color: #6c757d;
+  text-transform: uppercase;
+  font-weight: 500;
+}
+
+.info-text {
+  font-size: 14px;
+  color: #333;
+}
+
+.amount-text {
+  font-size: 24px;
+  font-weight: 700;
+  color: #222;
+}
+
+.brand-box {
+  background-color: #528ff0;
+  color: white;
+  padding: 30px 20px;
+  border-top-right-radius: 12px;
+  border-top-left-radius: 12px;
+}
+
+.brand-box img {
+  height: 50px;
+  margin-bottom: 10px;
+}
+
+.form-control {
+  border-radius: 6px;
+  font-size: 14px;
+}
+
+.continue-btn {
+  background-color: #000;
+  color: #fff;
+  border-radius: 6px;
+  font-weight: 600;
+}
+
+.footer-text {
+  font-size: 12px;
+  color: #888;
+}
+
+.security-box {
+  font-size: 13px;
+}
+
+@media (max-width: 767.98px) {
+  .row-cols-md-2 > .col-md-6 {
+    max-width: 100%;
+    flex: 0 0 100%;
+  }
+}
